@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-ser
+}
+img { 
+	max-width:100%;
+}
+
+header{
+	
+}
+.annoucement{
+	background-color:#3383fc;
+	padding: 10px;
+	text-align: center;
+}
+.annoucement a{
+	color: white;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 5%;
+	align-items: center;
+}
+.logo{}
+.logo a{}
+
+.menu{
+	flex-basis: 70%;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.menu ul li{}
+.menu ul li a{
+	color: #2c3e50;
+	font-size: 18px;
+	padding: 12px 20px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 500;
+	transition-duration: 0.3s;
+}
+.menu ul li a:hover{
+	background-color:#3383fc; 
+		color: white;
+		border-radius: 4px;
+		
+
+}
+
+.cart{
+	flex-basis: 15%;
+}
+.cart ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+.cart ul li{}
+.cart ul li a{
+	color:#2c3e50;
+	font-size: 20px;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px dashed #2c3e50;
+	border-radius: 4px;
+	margin-left: 10px;
+	transition-duration: 0.3s; 	
+}
+.cart ul li a:hover{
+	background-color: #3384fc;
+	border-color:#3384fc;
+	color: #fff;
+
+}
+
+.banner img{
+	width: 100%;
+}
+.about-us{
+	padding: 100px 0;
+}
+
+.container{
+	width: 1200px;
+	margin:0 auto;
+}
+h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #2c3e50;
+}
+.about-us p{
+	max-width: 800px;
+}
+.aboutus-content{
+	flex-basis: 70%;
+	}
+.aboutus-img{
+	flex-basis: 30%;
+	background-image: url(../images/images6.jpg);
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+p{
+	font-size: 18px;
+	color: #2c3e50;
+	line-height: 1.4;
+	
+}
+.blogs{
+	padding: 100px 0;
+}
+.flex{
+	display: flex;
+	flex-wrap:wrap;
+}
+.post{
+	flex-basis: 33.33%;
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+.post img{
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+}
+.post h2{
+	font-size: 20px;
+	margin: 20px 0 10px;
+	color:#2c3e50;
+}
+.post p{
+	opacity: 0.8;
+	font-weight: 300;
+}
+footer{
+    padding: 50px 0;
+    text-align: center;
+}
+    
+footer p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: #070079;
+}
+footer p a{
+    color: #070079;
+    font-weight: 700;
+}
